@@ -8,9 +8,9 @@
     <title>Contact &#8211; Air Apps</title>
     <script type="module">
         const btn = document.querySelector("#submit > span:nth-child(1) > span:nth-child(2)");
-const inputs = Array.from(document.querySelectorAll('input'))
+const frm = Array.from(document.querySelectorAll('#frm'))
 btn.addEventListener("click", (e) => {
-  const vals = inputs.map(input => input.value);
+  const vals = frm.map(input => input.value);
   if (vals.some(val => val == '')) alert('Some Fields are Empty')
   else alert('Thank you for contacting us. We will be in touch soon!') & window.location.replace('https://its-aomi.github.io/fresh/');
 });
@@ -1476,12 +1476,12 @@ btn.addEventListener("click", (e) => {
                       <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
                         <label for="form-field-name" class="elementor-field-label elementor-screen-only">
                           Enter your Full Name </label>
-                        <input size="1" type="text" name="entry.2023874292" id="form-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Full Name:" required="required" aria-required="true">
+                        <input size="1" type="text" name="entry.2023874292" id="frm" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Full Name:" required="required" aria-required="true">
                       </div>
                       <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
                         <label for="form-field-email" class="elementor-field-label elementor-screen-only">
                           Enter a Valid Email </label>
-                        <input size="1" type="email" name="entry.995890797" id="form-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email Address:" required="required" aria-required="true">
+                        <input size="1" type="email" name="entry.995890797" id="frm" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email Address:" required="required" aria-required="true">
                       </div>
                       <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_e2a8d43 elementor-col-100">
                         <label for="form-field-field_e2a8d43" class="elementor-field-label elementor-screen-only">
@@ -1492,7 +1492,7 @@ btn.addEventListener("click", (e) => {
                       <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
                         <label for="form-field-message" class="elementor-field-label elementor-screen-only">
                           Enter your Message </label>
-                        <textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="entry.813373246" id="form-message" rows="7" placeholder="Message:" required="required" aria-required="true"></textarea> </div>
+                        <textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="entry.813373246" id="frm" rows="7" placeholder="Message:" required="required" aria-required="true"></textarea> </div>
                       <div class="elementor-field-type-acceptance elementor-field-group elementor-column elementor-field-group-field_89efd36 elementor-col-100 elementor-field-required">
                         <div class="elementor-field-subgroup">
                           <span class="elementor-field-option">
