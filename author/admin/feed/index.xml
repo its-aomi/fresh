@@ -8,24 +8,169 @@
 	>
 
 <channel>
-	<title>admin &#8211; Air Apps</title>
+	<title>admin &#8211; Amitabh Borah&#039;s Blog</title>
 	<atom:link href="https://its-aomi.github.io/fresh/author/admin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://its-aomi.github.io/fresh</link>
 	<description></description>
-	<lastBuildDate>Mon, 07 Nov 2022 05:29:49 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 25 Dec 2022 14:24:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Twitter Interaction Circles: An Exercise Project with NodeJS, Canvas and API</title>
+		<link>https://its-aomi.github.io/fresh/twitter-interaction-circles-an-exercise-project-with-nodejs-canvas-and-api/</link>
+					<comments>https://its-aomi.github.io/fresh/twitter-interaction-circles-an-exercise-project-with-nodejs-canvas-and-api/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 25 Dec 2022 13:06:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://its-aomi.github.io/fresh/?p=39</guid>
 
-<image>
-	<url>https://its-aomi.github.io/fresh/wp-content/uploads/2022/11/cropped-Fav-icon-32x32.png</url>
-	<title>admin &#8211; Air Apps</title>
-	<link>https://its-aomi.github.io/fresh</link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-</channel>
+					<description><![CDATA[A step-by-step tutorial to create your own interaction circle on Twitter.]]></description>
+										<content:encoded><![CDATA[
+<p>A step-by-step tutorial to create your own interaction circle on Twitter.</p>
+
+
+
+<span id="more-39"></span>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://its-aomi.github.io/fresh/twitter-interaction-circles-an-exercise-project-with-nodejs-canvas-and-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Choose Your First Programming Language</title>
+		<link>https://its-aomi.github.io/fresh/how-to-choose-your-first-programming-language/</link>
+					<comments>https://its-aomi.github.io/fresh/how-to-choose-your-first-programming-language/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 25 Dec 2022 13:05:30 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://its-aomi.github.io/fresh/?p=37</guid>
+
+					<description><![CDATA[A guide for beginners to choose a programming language]]></description>
+										<content:encoded><![CDATA[
+<p>A guide for beginners to choose a programming language</p>
+
+
+
+<span id="more-37"></span>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://its-aomi.github.io/fresh/how-to-choose-your-first-programming-language/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Creating a Personal Notification System for free with Telegram API</title>
+		<link>https://its-aomi.github.io/fresh/creating-a-personal-notification-system-for-free-with-telegram-api/</link>
+					<comments>https://its-aomi.github.io/fresh/creating-a-personal-notification-system-for-free-with-telegram-api/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 25 Dec 2022 13:03:48 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Ruby]]></category>
+		<guid isPermaLink="false">https://its-aomi.github.io/fresh/?p=35</guid>
+
+					<description><![CDATA[Telegram is a messaging app, similar to WhatsApp and many others. It&#8217;s a well-maintained app, powered by many features that &#8230; <a href="https://its-aomi.github.io/fresh/creating-a-personal-notification-system-for-free-with-telegram-api/" class="more-link">Continue reading <span class="screen-reader-text">Creating a Personal Notification System for free with Telegram API</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Telegram is a messaging app, similar to WhatsApp and many others. </p>
+
+
+
+<span id="more-35"></span>
+
+
+
+<p> It&#8217;s a well-maintained app, powered by many features that give it an edge over its competitors. Today, we are exploring Telegram&#8217;s API. Telegram features an incredibly simple API to automate almost anything–you can even use it to send messages to youself.</p>
+
+
+
+<pre class="wp-block-code"><code lang="c" class="language-c">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;math.h&gt;
+
+// Structure to represent a point
+struct Point
+{
+    int x, y;
+};
+
+// Function to plot a point
+void plotPoint(int x, int y)
+{
+    printf("(%d, %d)\n", x, y);
+}
+
+// Function to implement Bresenham's line drawing algorithm
+void bresenham(struct Point p1, struct Point p2)
+{
+    int dx = abs(p2.x - p1.x);
+    int dy = abs(p2.y - p1.y);
+    int p = 2 * dy - dx;
+    int twoDy = 2 * dy;
+    int twoDyMinusDx = 2 * (dy - dx);
+    int x, y;
+
+    // Determine which point to use as starting point
+    if (p1.x &gt; p2.x)
+    {
+        x = p2.x;
+        y = p2.y;
+    }
+    else
+    {
+        x = p1.x;
+        y = p1.y;
+    }
+
+    // Plot the starting point
+    plotPoint(x, y);
+
+    while (x &lt; p2.x)
+    {
+        x++;
+        if (p &lt; 0)
+            p += twoDy;
+        else
+        {
+            y++;
+            p += twoDyMinusDx;
+        }
+
+        // Plot the next point
+        plotPoint(x, y);
+    }
+}
+
+// Driver program to test above function
+int main()
+{
+    struct Point p1 = {1, 1}, p2 = {10, 5};
+    bresenham(p1, p2);
+    return 0;
+}
+</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://its-aomi.github.io/fresh/creating-a-personal-notification-system-for-free-with-telegram-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
