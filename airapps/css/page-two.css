@@ -1,0 +1,290 @@
+.hero-main{
+    background-color: #000;
+    height: 1000px;
+}
+.hero{
+    background-color: #0e0505;
+    background-image: url(https://borah.link/wp-content/uploads/2022/10/About_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.hero-overlay{
+        background-color: transparent;
+        background-image: linear-gradient(180deg,#02010100 5%,#000000 95%);
+        opacity: 1;
+        transition: background .3s,border-radius .3s,opacity .3s;
+        height: 800px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+.hero-content h1{
+    font-size: 73px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 200px;
+}
+.hero-content p{
+    font-size: 25px;
+    font-weight:400;
+    color: #fff;
+    text-align: center;
+    width: 600px;
+}
+
+.t-img img {
+    width: 100%;
+}
+
+.counter-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 150px;
+  }
+
+  .counter-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  .counter-cont span{
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .counter {
+    margin-bottom: 10px;
+    font-size: 75px;
+    font-weight: bold;
+    padding: 30px;
+    width: 100%;
+  }
+  .counter-heading {
+    margin-bottom: 20px;
+  }
+.counter-main h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.c-one{
+    position: relative;
+}
+.c-one::after{
+  content: '+';
+  font-size: 40px;
+  position: absolute; 
+  top: 10;
+  right: 50;
+}
+.c-two::after{
+    content: 'M';
+}
+.c-two::before{
+    content: '+';
+    float: right;
+    font-size: 40px;
+}
+.c-four::after{
+    content: 'M';
+}
+
+.three-main{
+    height: 100%;
+    background-color: #000;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.three-child {
+    display: flex; 
+    gap: 30px;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .three-two {
+    flex: 0 0 45%; 
+    height: 600px;
+  }
+  .three-two img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+  }
+
+  .three-one img,
+.three-two img,
+.three-three img {
+  max-width: 100%;
+  background-color: #000;
+  opacity: 0.51;
+}
+
+.three-one img{
+    border-radius: 0 20px 20px 0;
+}
+.three-three img{
+    border-radius: 20px 0 0 20px;
+}
+
+.better-main{
+    height: 100px;
+    background-color: #000;
+    padding-bottom: 200px;
+}
+.better-cont{
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+}
+.better-heading{
+    color: #fff;
+    font-size: 47px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 100px;
+    margin-top: -150px;
+    position: relative;
+}
+.better-paragraph{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.better-heading span{
+    text-decoration: none;
+    padding-bottom: 20px;
+    background: url(https://borah.link/wp-content/webp-express/webp-images/uploads/2022/10/Vector.png.webp) bottom repeat-x;
+}
+
+.inno-main{
+    background-color: #000;
+    padding-top: 100px;
+}
+.inno-cont{
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+}
+.inno-cont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.inno-cont video {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+.inno-cont div {
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+.inno-heading{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 100px;
+    position: relative;
+    background: -webkit-linear-gradient(1deg, #FD7B69 0%, #803FF8 90.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inno-para{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.bre-main{
+    height: 100px;
+    background-color: #000;
+    padding-bottom: 150px;
+}
+.bre-cont{
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+}
+.bre-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+}
+.bre-heading span{
+    text-decoration: none;
+    padding-bottom: 20px;
+    background: url(https://borah.link/wp-content/webp-express/webp-images/uploads/2022/10/Vector.png.webp) bottom repeat-x;
+}
+
+
+.corner-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.corner-two {
+    float: right;
+}
+.corner-cont img{
+    height: auto;
+    width: 450px;
+}
+.corner-one img{
+    border-radius: 0 20px 20px 0;
+    width: 45%;
+    opacity: 0.4;
+}
+.corner-two img{
+    border-radius: 20px 0 0 20px;
+    opacity: 0.4;
+}
+.corner-para-main{
+    background-color: #000;
+}
+.corner-para{
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -600px;
+    padding-bottom: 400px;
+}
+.corner-app{
+    position: relative;
+    margin-top: -350px;
+}
+.corner-app img{
+    width: 150px;
+}
+.icon-slider{
+    background-color:#000;
+}

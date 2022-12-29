@@ -1,0 +1,207 @@
+.hero::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
+    content:url(https://borah.link/wp-content/uploads/2022/12/AdobeStock_161035995-1-1.png.webp) url(https://borah.link/wp-content/uploads/2022/12/AdobeStock_268216547-1-1.png.webp) url(https://borah.link/wp-content/uploads/2022/12/AdobeStock_208876048-1-1.png.webp) url(https://borah.link/wp-content/uploads/2022/12/AdobeStock_423948206-1-1-1.png.webp);   // load images
+ }
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 720px;
+}
+
+.hero-title {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 150px 0 0 0;
+  color: #fff;
+}
+
+.hero-des {
+  font-size: 75px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  background: -webkit-linear-gradient(1deg, #FD7B69 0%, #803FF8 101.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero img{
+    width: 120px;
+}
+.sqaure-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 1024px) {
+    .hero-title {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1024px){
+  .sqaure-box{
+      width: 1000px;
+      row-gap: 30px;
+      column-gap: 20px;
+      padding-top: 70px;
+      padding-bottom: 70px;
+      top:0px;             
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  }
+  .sqaure-box h2{
+      font-size:19px;
+      font-weight:600;
+      text-transform:uppercase;
+      padding:10px 0px 10px 20px;
+  }
+  .sqaure-box h3{
+      font-size: 2rem;
+      color: #fff;
+      padding:0px 0px 0px 20px;
+      margin-top: -20px;
+  }
+  .square-box3 {
+    width: 42%;
+    height: 500px;
+    background: #ffffff00 url('https://borah.link/wp-content/uploads/2022/12/Home-img-3.png.webp') no-repeat center center;
+    background-position: -50px;
+    transition: all .6s ease-in-out !important;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .square-box2 {
+    width: 42%;
+    height: 500px;
+    background: #ffffff00 url('https://borah.link/wp-content/uploads/2022/12/Home-img-2.png.webp') no-repeat center center;
+    background-position: -50px;
+    transition: all .6s ease-in-out !important;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .square-box1 {
+    width: 55%;
+    height: 500px;
+    background: #ffffff00 url('https://borah.link/wp-content/uploads/2022/12/Home-img-1.png.webp') no-repeat center center;
+    background-position: -120px;
+    transition: all .6s ease-in-out !important;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .square-box4 {
+    width: 55%;
+    height: 500px;
+    background: #ffffff00 url('https://borah.link/wp-content/uploads/2022/12/Home-img-4.png.webp') no-repeat center center;
+    background-position: -50px;
+    transition: all .6s ease-in-out !important;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .hidden-p {
+    display: none;
+  }
+  
+  .square-box1:hover .hidden-p {
+    display: block; 
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    padding:0px 0px 0px 20px;
+    margin-top: -20px !important;
+    text-align: left;
+    width: 70%;
+  }
+  
+  .square-box1:hover {
+    background-image: url('https://borah.link/wp-content/uploads/2022/12/AdobeStock_423948206-1-1-1.png.webp');
+    transition: all .6s ease-in-out !important;
+    background-position:  -116px;
+  }
+  .square-box2:hover .hidden-p {
+    display: block; 
+  }
+  
+  .square-box2:hover {
+    background-image: url('https://borah.link/wp-content/uploads/2022/12/AdobeStock_208876048-1-1.png.webp');
+    transition: all .6s ease-in-out !important;
+    background-position:  -47px;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 50%) !important;
+  }
+  .square-box3:hover .hidden-p {
+    display: block; 
+  }
+  
+  .square-box3:hover {
+    background-image: url('https://borah.link/wp-content/uploads/2022/12/AdobeStock_268216547-1-1.png.webp');
+    transition: all .6s ease-in-out !important;
+    background-position:  -47px;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 50%) !important;
+  }
+  
+  .square-box4:hover .hidden-p {
+    display: block; 
+  }
+  
+  .square-box4:hover {
+    background-image: url('https://borah.link/wp-content/uploads/2022/12/AdobeStock_161035995-1-1.png.webp');
+    transition: all .6s ease-in-out !important;
+    background-position:  -47px;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 50%) !important;
+  }
+  
+  
+  .hero-footer {
+      background-image: url("https://borah.link/wp-content/uploads/2022/10/gradient.png");
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      height: 700px !important;
+      display: flex;  /* create a flex container */
+    align-items: center;  /* align the children along the cross axis */
+    justify-content: center;
+    color: #fff;
+  }
+  .hero-footer-main{
+      background-color: #0E0505;
+      background-image: url("https://borah.link/wp-content/uploads/2022/12/Group-447.png.webp");
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: 95% auto;
+      height: 700px !important;
+  }
+  .hero-footer-box{
+      text-align: center;
+  }
+  button{
+      font-family: "Helvetica Neue", Sans-serif;
+      font-size: 19px;
+      font-weight: bold;
+      background-color: #007AFF;
+      color: #fff;
+      border-radius: 35px 35px 35px 35px;
+      padding: 15px 30px 15px 30px;
+  }
+  /* Desktop Ends here */
+  }
+  
+  @media (max-width: 768px) {
+    .square-box1,
+    .square-box2,
+    .square-box3,
+    .square-box4 {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .square-box1,
+    .square-box2,
+    .square-box3,
+    .square-box4 {
+      width: 100%;
+    }
+  }
